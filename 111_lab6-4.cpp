@@ -17,5 +17,15 @@ int main()
 	    {
 	    	max=i;
 		}
-	      printf("%d %d",a[max-1][0],a[max-1][1]);
+	//for(i=0;i<n;i++)
+	//printf("%d",b[i]);
+	//for(i=0;i<n;i++)
+	   //for(j=0;j<2;j++)
+	     // printf("%d\n",a[i][j]);
+	printf("%d ",max);
+	if(b[a[max-1][0]]-1>b[a[max-1][1]]-1)
+	printf("%d",a[max-1][0]);
+	else
+	printf("%d",a[max-1][1]);
+	
 }
